@@ -1,0 +1,17 @@
+### Debugging ###
+
+1. Print basic statement
+#include<iostream>
+using namespace std;
+int x=10;
+void dbg() {cout << "x = " << x << endl;}
+void dbg() {cerr << "x = " << x <<endl;}
+
+
+int main(){
+dbg(); // x = 10
+x = 5000;
+dbg(); // x = 5000
+}
+
+//-------------------------------------- // -----------------------------//
